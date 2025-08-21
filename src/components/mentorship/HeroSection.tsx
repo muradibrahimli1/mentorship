@@ -55,7 +55,7 @@ export default function HeroSection() {
           <div className="relative">
             {/* Professional Headshot */}
             <div className="relative z-20 mb-8 flex justify-center">
-              <div className="w-32 h-32 rounded-full overflow-hidden shadow-2xl border-4 border-white">
+              <div className="w-48 h-48 rounded-full overflow-hidden shadow-2xl border-4 border-white">
                 <img 
                   src="/images/mentor-headshot.png" 
                   alt="Professional study abroad mentor"
