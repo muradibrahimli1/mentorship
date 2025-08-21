@@ -53,7 +53,7 @@ export default function Home() {
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Users className="h-8 w-8 text-blue-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Expert Mentorship</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Daniel</h3>
               <p className="text-gray-600">
                 Get guidance from former international students who understand your challenges.
               </p>
