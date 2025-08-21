@@ -51,8 +51,20 @@ export default function HeroSection() {
             </div>
           </div>
 
-          {/* Hero Illustration */}
+          {/* Hero Illustration with Professional Headshot */}
           <div className="relative">
+            {/* Professional Headshot */}
+            <div className="relative z-20 mb-8 flex justify-center">
+              <div className="w-32 h-32 rounded-full overflow-hidden shadow-2xl border-4 border-white">
+                <img 
+                  src="/images/mentor-headshot.png" 
+                  alt="Professional study abroad mentor"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+            
+            {/* Study Abroad Success Card */}
             <div className="relative z-10 bg-white rounded-3xl p-8 shadow-2xl">
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">

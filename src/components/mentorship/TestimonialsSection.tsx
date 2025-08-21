@@ -82,21 +82,11 @@ export default function TestimonialsSection() {
               {/* Author */}
               <div className="flex items-center">
                 <div className="w-12 h-12 rounded-full mr-4 overflow-hidden">
-                  {testimonial.id === 1 ? (
-                    <img 
-                      src="/images/mentor-headshot.png" 
-                      alt="Professional mentor headshot"
-                      className="w-full h-full object-cover"
-                      onLoad={() => console.log('Image loaded successfully!')}
-                      onError={() => console.log('Image failed to load')}
-                    />
-                  ) : (
-                    <div className="w-full h-full bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center">
-                      <span className="text-white font-semibold text-lg">
-                        {testimonial.name.charAt(0)}
-                      </span>
-                    </div>
-                  )}
+                  <div className="w-full h-full bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center">
+                    <span className="text-white font-semibold text-lg">
+                      {testimonial.name.charAt(0)}
+                    </span>
+                  </div>
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900">{testimonial.name}</div>
