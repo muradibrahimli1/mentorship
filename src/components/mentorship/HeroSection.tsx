@@ -14,7 +14,7 @@ export default function HeroSection() {
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">
                 Unlock Success with{' '}
-                <span className="text-blue-600">Expert Mentorship</span>
+                <span className="text-blue-600">Daniel</span>
               </h1>
               <p className="text-xl lg:text-2xl text-gray-600 leading-relaxed">
                 Get personalized guidance from former international students who&apos;ve walked your path. 
